@@ -1,0 +1,17 @@
+.producto {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.productoTitulo {
+    color: aqua;
+    letter-spacing: 5px;
+    font-size: 2rem;
+}
+
+.contadores {
+    display: flex;
+    justify-content: space-between;
+}
+
