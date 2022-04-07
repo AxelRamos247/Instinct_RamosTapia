@@ -1,0 +1,17 @@
+.imagenGuantes {
+    width: 100%;
+}
+
+.productoGuantes {
+    width: 35%;
+    padding: 2%;
+    border: 15px solid blue;
+    background-color: aqua;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}

@@ -3,7 +3,7 @@ import './ItemCount.css'
 
 const ItemCount = ({onAdd, stock, initial, count}) => {
 return <div className="producto">
-    <span className="productoTitulo">Camisa tiger</span>
+    <span className="productoTitulo">Guantes de boxeo</span>
     <div className="contadores">
     <button className= "disminuir" onClick={() => {if (count > initial) {onAdd('-')}}}>-</button>
         {count}
