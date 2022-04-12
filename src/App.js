@@ -1,6 +1,7 @@
 import './App.css';
 import NavBar from './Components/NavBar/NavBar';
 import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
+import ItemDetailContainer from './Components/ItemDetailContainer/ItemDetailContainer'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <header className="App-header">
       <div>
         <ItemListContainer onAdd={onAdd} stock={stock} initial= {initial}  />
+        <ItemDetailContainer/>
       </div>
       
       </header>
