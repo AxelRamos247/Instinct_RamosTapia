@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ItemCount from "../ItemCount/ItemCount";
-import ItemList from './ItemList.js'
-import './Item.css'
+import ItemList from '../Data/ItemList.js'
+import '../Data/Item.css'
 
 const ItemListContainer = () => {
     const [count, setCount] = useState(1);
