@@ -32,6 +32,7 @@ const ItemListContainer = () => {
             <h1 className='tituloCategoria'>{product.name}</h1>
             <img className= 'imagenGuantes' src= {product.Image} alt = {product.name}/>
             <ItemCount onAdd={onAdd} stock={product.stock} initial={initial} count={count}
+           
             />
             </div>
             ))}

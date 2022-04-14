@@ -10,6 +10,7 @@ return <div className="producto">
     <button className= "aumentar"  onClick={() => {if (count < stock) {onAdd('+')}}}>+</button>
     </div>
     <button className= "agregar"  onClick={()=> onAdd (count)} > Agregar al carrito</button>
+    <button className= "agregar"  onClick={()=> onAdd (count)} > Detalle</button>
     
     </div>
 }
